@@ -26,7 +26,7 @@ app.innerHTML = `
 <header>
   <div class="brand"><span class="brand-dot"></span>ATLAS <small></small></div>
   <nav>
-    <button id="nav-scan" class="active" type="button">.</button>
+    <button id="nav-scan" class="active" type="button">HOME</button>
     <button id="nav-history" type="button">History <span class="count" id="hist-count">0</span></button>
     <button id="nav-admin" type="button">Admin</button>
   </nav>
