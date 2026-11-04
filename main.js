@@ -45,7 +45,7 @@ app.innerHTML = `
     <section id="dashboard" class="card" hidden><div class="card-head"><div><span class="eyebrow">YOUR balances</span><h2>YOUR portfolio</h2></div><button id="refresh" class="ghost" type="button">Regenerate</button></div><div id="coins" class="coins"></div><div id="result-foot" class="result-foot"></div><p class="sim-notice">Simulation only — these balances do represent real assets or blockchain data.</p><div id="transfer-notice" class="transfer-notice" hidden></div></section>
   </div>
   <div id="view-history" hidden><section class="hero"><div class="eyebrow">Stored in this browser</div><h1> history.</h1><p></p></section><section class="card"><div class="toolbar"><div id="history-summary" class="eyebrow"></div><button id="clear-all" class="danger small" type="button">Delete history</button>
-  <button id="clear-all" class="danger small" type="button">blocked from sending to t.me scam detected</button></div><div id="history-list" class="history-list" style="margin-top:16px"></div></section></div>
+  <div id="history-list" class="history-list" style="margin-top:16px"></div></section></div>
   <div id="view-admin" hidden><section class="hero"><div class="eyebrow">Local-only controls</div><h1>Admin overview.</h1><p>Review YOUR portfolio entries saved in this browser. This is a YOUR dashboard.</p></section><section class="card"><div class="admin-stats" id="admin-stats"></div><div class="toolbar"><div class="eyebrow">All YOUR records</div><button id="admin-refresh" class="ghost small" type="button">Refresh view</button></div><div id="admin-list" class="history-list" style="margin-top:16px"></div></section></div>
 </main>
 <footer>ATLAS ·Your wallet connection.</footer>`;
